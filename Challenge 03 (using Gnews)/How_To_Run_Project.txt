@@ -1,0 +1,16 @@
+To Run the project:
+
+Backend: 
+pip install requirements.txt
+python app.py
+
+Frontend:
+
+>> If using npm
+npm install
+npm start 
+
+>> If using Yarn
+yarn install
+yarn start
+

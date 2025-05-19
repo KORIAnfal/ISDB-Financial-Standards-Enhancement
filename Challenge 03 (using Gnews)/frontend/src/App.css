@@ -1,0 +1,328 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f7f6; /* Very light grey/off-white */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the app container */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #006400; /* Dark Green */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.standard-selector {
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.standard-selector label {
+  font-weight: bold;
+  color: #2e7d32; /* Slightly lighter green */
+}
+
+.standard-selector select {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #a5d6a7; /* Light green border */
+  min-width: 200px;
+  font-size: 1rem;
+}
+
+.standard-selector button {
+  padding: 10px 20px;
+  background-color: #2e7d32; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+.standard-selector button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.standard-selector button:hover:not(:disabled) {
+  background-color: #1b5e20; /* Darker green on hover */
+}
+
+.loading-message, .error-message {
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 5px;
+}
+
+.loading-message {
+  color: #006400;
+  background-color: #e8f5e9; /* Very light green */
+}
+
+.error-message {
+  color: #c62828; /* Red for errors */
+  background-color: #ffebee; /* Light red */
+}
+
+.agent-output-container {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #a5d6a7; /* Light green border */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Slightly off-white for output sections */
+}
+
+.agent-output-container h2 {
+  color: #1b5e20; /* Darker green for section titles */
+  margin-top: 0;
+  border-bottom: 2px solid #a5d6a7;
+  padding-bottom: 10px;
+}
+
+/* Styles for react-markdown content if needed */
+.agent-output-container .markdown-content {
+  font-size: 0.95rem;
+}
+.agent-output-container .markdown-content h1,
+.agent-output-container .markdown-content h2,
+.agent-output-container .markdown-content h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  color: #2e7d32;
+}
+.agent-output-container .markdown-content pre {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+.agent-output-container .markdown-content code {
+  font-family: 'Courier New', Courier, monospace;
+}
+.agent-output-container .markdown-content blockquote {
+  border-left: 3px solid #a5d6a7;
+  padding-left: 10px;
+  color: #555;
+  margin-left: 0;
+}
+
+/* Add to src/App.css */
+.analysis-stage {
+  border-left: 5px solid #4CAF50; /* Green for analysis */
+}
+.proposals-stage {
+  border-left: 5px solid #2196F3; /* Blue for proposals */
+  margin-left: 20px; /* Indent slightly */
+}
+.validation-stage {
+  border-left: 5px solid #FFC107; /* Amber for validation */
+  margin-left: 40px; /* Indent further */
+  background-color: #fffbeb;
+}
+
+.proposals-stage h2, .validation-stage h2 {
+  font-size: 1.1em;
+}
+
+/* Add this block to your src/App.css */
+
+.news-query-input {
+  display: flex; /* Align label and input inline */
+  align-items: center;
+  gap: 10px; /* Space between label and input */
+  flex-grow: 1; /* Allows the input area to take available space */
+}
+
+.news-query-input label {
+    font-weight: bold;
+    color: #2e7d32; /* Match other label styles */
+}
+
+.news-query-input input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a5d6a7; /* Match other input styles */
+    flex-grow: 1; /* Allows the input to fill space */
+    font-size: 1rem; /* Match other input styles */
+    min-width: 150px; /* Ensure it doesn't get too small */
+}
+
+.news-query-input input[type="text"]:disabled {
+  background-color: #f0f0f0;
+  cursor: not-allowed;
+}
+
+/* Adjust the standard-selector layout if needed to accommodate the new input */
+.standard-selector {
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+  align-items: center;
+  gap: 15px; /* Space between items */
+}
+
+/* Ensure the button doesn't grow */
+.standard-selector button {
+    flex-shrink: 0;
+}
+
+
+
+
+/* Add to your App.css */
+.status-badge {
+  margin-left: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+}
+.status-accepted { background-color: #28a745; } /* Green */
+.status-potentially-accepted-with-revisions { background-color: #ffc107; color: #333; } /* Yellow */
+.status-rejected { background-color: #dc3545; } /* Red */
+.status-review-error, .status-not-reviewed-insufficient-data { background-color: #6c757d; } /* Grey */
+
+.meta-review-section {
+  background-color: #f8f9fa;
+  border-left: 4px solid #007bff;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 4px;
+}
+.meta-review-section h4 {
+  margin-top: 0;
+  color: #0056b3;
+}
+.proposal-validation-item hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+.markdown-content-tight {
+  font-size: 0.9em;
+  background-color: #f9f9f9;
+  padding: 5px;
+  border-radius: 3px;
+  margin-bottom: 10px;
+}
+.thematic-validation-detail {
+  margin-bottom: 8px;
+  padding-left: 15px;
+  border-left: 2px solid #eee;
+}
+.process-complete-message {
+  background-color: #d4edda; 
+  color: #155724; 
+  padding: 10px; 
+  margin-top: 20px; 
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/* ... your existing styles ... */
+
+.status-badge {
+  margin-left: 10px;
+  padding: 3px 8px;
+  border-radius: 10px;
+  font-size: 0.9em;
+  font-weight: bold;
+  color: white;
+  text-transform: capitalize;
+}
+.status-accepted { background-color: #28a745; } /* Green */
+.status-potentially-accepted-with-revisions { background-color: #ffc107; color: #333; } /* Yellow */
+.status-rejected { background-color: #dc3545; } /* Red */
+.status-review-error, .status-not-reviewed-insufficient-data, .status-meta-status-parse-err { background-color: #6c757d; } /* Grey */
+
+
+.meta-review-section {
+  background-color: #f0f8ff; /* Light Alice Blue */
+  border-left: 4px solid #007bff; /* Blue */
+  padding: 10px 15px;
+  margin: 15px 0;
+  border-radius: 4px;
+}
+.meta-review-section h4 {
+  margin-top: 0;
+  color: #0056b3;
+  font-size: 1.1em;
+}
+.meta-review-section p {
+  line-height: 1.5;
+}
+
+.proposal-validation-item {
+  border: 1px solid #e0e0e0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+.proposal-validation-item h3 {
+  margin-top: 0;
+  color: #333;
+}
+.proposal-validation-item hr {
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0));
+}
+.markdown-content-tight {
+  font-size: 0.95em;
+  background-color: #fdfdfd;
+  padding: 10px;
+  border: 1px solid #f0f0f0;
+  border-radius: 3px;
+  margin-bottom: 10px;
+  line-height: 1.6;
+}
+.thematic-validation-detail {
+  margin-bottom: 12px;
+  padding-left: 15px;
+  border-left: 3px solid #f0f0f0;
+}
+.thematic-validation-detail h5 {
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+.sub-details summary {
+  cursor: pointer;
+  font-weight: bold;
+  color: #007bff;
+  margin-bottom: 5px;
+}
+
+.process-complete-message {
+  background-color: #d1e7dd; 
+  color: #0f5132; 
+  padding: 12px 15px; 
+  margin-top: 25px; 
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #badbcc;
+}
+/* Add styles for agent-output-container, markdown-content, standard-selector etc. if not already present */
+.agent-output-container { margin-bottom: 20px; padding: 15px; border: 1px solid #ddd; border-radius: 5px; }
+.markdown-content p { line-height: 1.6; }
+.standard-selector { margin-bottom: 20px; padding: 10px; background-color: #f8f9fa; border-radius: 5px;}
+.error-message { color: red; margin-top: 10px; }
+.loading-message { text-align: center; color: #555; }

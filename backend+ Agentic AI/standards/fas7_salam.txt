@@ -1,0 +1,96 @@
+
+AAOIFI Financial Accounting Standard No. 7 (FAS 7): Salam and Parallel Salam
+
+1. Scope of the Standard:
+This standard addresses the accounting rules for Salam financing and Parallel Salam transactions, including:
+- Treatment of capital (Ra’s Al-Mal) paid/received in Salam or Parallel Salam.
+- Receipt and sale of Al-Muslam Fihi (the subject of the contract).
+- Revenues, expenses, gains, and losses arising from such transactions.
+Disclosure must be made if this standard conflicts with the bank’s charter or national laws.
+
+2. Accounting Treatments:
+
+2.1 Recognition:
+- Salam financing is recognized when the capital is paid or made available to Al-Muslam Ileihi.
+- Parallel Salam is recognized when the capital is received by the Islamic bank.
+
+2.2 At Contracting Time:
+a) Cash capital is measured by the actual amount paid.
+b) Non-cash capital (kind or benefit) is measured at fair value agreed upon.
+
+2.3 At Financial Period End:
+a) Salam capital remains as per item 2.2 unless probable delivery failure or decline in value occurs, in which case a provision must be made.
+b) Salam transactions are shown as assets (Salam Financing).
+c) Parallel Salam transactions are shown as liabilities (Parallel Salam).
+
+2.4 Receipt of Al-Muslam Fihi:
+- Received goods are recorded at historical cost.
+- If quality differs:
+  - Equal market/book value: record at book value.
+  - Lower market value: record at market value and recognize loss.
+- If not received:
+  - If extended: retain book value.
+  - If cancelled and capital not repaid: recognize as receivable.
+
+2.5 Client Misconduct:
+- Recognize receivables if Salam is cancelled due to client negligence or non-repayment.
+- Any pledged security shortfall becomes a receivable; surplus returned to client.
+- Additional amounts due to misconduct are recorded as receivables.
+
+2.6 Substitution:
+- If substitute goods are of lower value than Al-Muslam Fihi, record at market/fair value and recognize loss.
+
+2.7 Post-Receipt Measurement:
+- Use lower of historical cost or cash equivalent at period-end; loss recognized if lower.
+
+2.8 Parallel Salam Delivery:
+- Difference between cost of goods delivered and amount received from client = profit/loss.
+
+3. Disclosure Requirements:
+Disclose as per AAOIFI FAS 1: General Presentation and Disclosure in Financial Statements of Islamic Banks.
+
+4. Effective Date:
+Applies to financial periods beginning 1 Muharram 1419 A.H. / 1 January 1999 A.D.
+
+---
+
+Juristic Foundations of Salam and Parallel Salam:
+
+1. Definition:
+Salam is the sale of a commodity for deferred delivery in exchange for immediate payment.
+
+2. Legitimacy:
+- Based on Qur’an, Sunnah, and scholarly consensus (Ijma’).
+- Supported by necessity: Salam provides liquidity to producers (e.g., farmers, traders).
+
+3. Capital of Salam:
+- Must be known, paid in full, preferably in cash.
+- Permitted in kind or benefit (e.g., housing) by some schools (e.g., Malikis).
+
+4. Al-Muslam Fihi:
+- Must be standardized in kind, type, quality, and amount.
+- Delivery must be deferred and date fixed.
+- Must not be tied to uncertain events or specific sources (e.g., one farm).
+
+5. Delivery and Sale:
+- Delivery must occur at a mutually agreed place; if unspecified, default to custom.
+- Resale of Al-Muslam Fihi before receipt is not allowed (except with exceptions by Maliki school).
+
+6. Replacement/Substitution:
+- Only allowed if substitute is same/lower quality and quantity does not exceed original.
+- Prohibited if it leads to Riba or debt-for-debt transaction.
+
+7. Parallel Salam:
+- Permissible if the two contracts (buy and sell) are separate and independent.
+- Some scholars prohibit it if it becomes a regular trading mechanism.
+
+8. General Rules:
+- Complete or partial cancellation is permissible.
+- Early delivery is allowed only if quality and quantity match.
+- Inferior delivery may be accepted without price reduction.
+
+9. Non-Delivery:
+- Al-Muslam may cancel the contract or wait until delivery is possible.
+
+10. Transferability:
+- Al-Muslam Fihi may be pledged or transferred as it is considered a debt instrument.

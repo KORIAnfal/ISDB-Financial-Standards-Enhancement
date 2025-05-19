@@ -1,0 +1,132 @@
+Financial Accounting Standard No. (4)
+Musharaka Financing
+
+Statement of the Standard
+
+1. Scope of the Standard
+This standard shall apply to Musharaka financing transactions carried out
+by Islamic banks whether by means of a constant Musharaka (short or
+long-term) or a diminishing Musharaka (one which ends with transferring
+ownership to one party). This shall apply whether the Islamic bank finances
+its share in Musharaka capital exclusively out of its own funds, out of the
+pool of commingled funds comprising the Islamic bank’s own funds and
+unrestricted investment accounts or out of restricted investment accounts.
+The standard shall also apply to the transactions pertaining to the Islamic
+bank’s share in Musharaka profits or losses.
+Should the requirements of this standard contradict the Islamic bank’s
+charter or the laws and regulations of the country in which it operates,
+a disclosure should be made of the contradiction. (para. 1)
+This standard does not include the following:
+a) Mudaraba;
+b) Participations;
+c) Zakah on Musharaka funds; and
+d) Accounting treatment of Musharaka transactions in the partner’s
+(client’s) books and the Musharaka records. (para. 2)
+
+2. Accounting Treatment of Musharaka Financing
+2/1 Recognition of the Islamic bank’s share in Musharaka capital at the
+time of contracting
+The Islamic bank’s share in Musharaka capital (cash or kind) shall
+be recognized when it is paid to the partner or made available to him
+on the account of the Musharaka. This share shall be presented in
+the Islamic bank’s books under a Musharaka financing account with
+(name of client) and it shall be included in the financial statements
+under the heading “Musharaka Financing”. (para. 3)
+
+2/2 Measurement of the Islamic bank’s share in Musharaka capital at the
+time of contracting
+2/2/1 The Islamic bank’s share in the Musharaka capital provided in
+cash shall be measured by the amount paid or made available
+to the partner on the account of the Musharaka. (para. 4)
+2/2/2 The Islamic bank’s share in Musharaka capital provided in kind
+(trading assets or non-monetary assets for use in the venture)
+shall be measured at the fair value of the assets (the value
+agreed between the partners), and if the valuation of the assets
+results in a difference between fair value and book value, such
+difference shall be recognized as profit or loss to the Islamic
+bank itself. (para. 5)
+2/2/3 Expenses of the contracting procedures incurred by one or both
+parties (e.g., expenses of feasibility studies and other similar
+expenses) shall not be considered as part of the Musharaka
+capital unless otherwise agreed by both parties. (para. 6)
+
+2/3 Measurement of the Islamic bank’s share in Musharaka capital after
+contracting at the end of a financial period
+2/3/1 The Islamic bank’s share in the constant Musharaka capital
+shall be measured at the end of the financial period at historical
+cost (the amount which was paid or at which the asset was
+valued at the time of contracting). (para. 7)
+2/3/2 The Islamic bank’s share in the diminishing Musharaka shall
+be measured at the end of a financial period at historical cost
+after deducting the historical cost of any share transferred to the
+partner (such transfer being by means of a sale at fair value).
+The difference between historical cost and fair value shall
+be recognized as profit or loss in the Islamic bank’s income
+statement. (para. 8)
+2/3/3 If the diminishing Musharaka is liquidated before complete
+transfer is made to the partner, the amount recovered in respect
+of the Islamic bank’s share shall be credited to the Islamic
+bank’s Musharaka financing account and any resulting profit
+or loss, namely the difference between the book value and the
+recovered amount, shall be recognized in the Islamic bank’s
+income statement. (para. 9)
+
+2/4 Recognition of the Islamic bank’s share in Musharaka profits or
+losses
+2/4/1 Profits or losses in respect of the Islamic bank’s share in
+Musharaka financing transactions that commence and end
+during a financial period shall be recognized in the Islamic
+bank’s accounts at the time of liquidation. (para. 11)
+2/4/2 In the case of a constant Musharaka that continues for more
+than one financial period, the Islamic bank’s share of profits
+for any period, resulting from partial or final settlement be-
+tween the Islamic bank and the partner, shall be recognized
+in its accounts for that period to the extent that the profits
+are being distributed; the Islamic bank’s share of losses for
+any period shall be recognized in its accounts for that period
+to the extent that such losses are being deducted from its share
+of the Musharaka capital. (para. 12)
+
+2/5 Disclosure requirements
+2/5/1 Disclosure should be made in the notes to the financial state-
+ments for a financial reporting period if the Islamic bank has
+made during that period a provision for a loss of its capital in
+Musharaka financing transactions. (para. 17)
+2/5/2 The disclosure requirements stated in Financial Accounting
+Standard No. (1): General Presentation and Disclosure in the
+Financial Statements of Islamic Banks and Financial Institu-
+tions should be observed. (para. 18)
+
+3. Effective Date
+This Standard shall be effective for financial statements for fiscal periods
+beginning 1 Muharram 1418 A.H. or 1 January 1998 A.D. (para. 19)
+
+Appendix (E)
+Definitions
+Musharaka
+A form of partnership between the Islamic bank and its clients whereby
+each party contributes to the capital of partnership in equal or varying degrees
+to establish a new project or share in an existing one, and whereby each of
+the parties becomes an owner of the capital on a permanent or declining
+basis and shall have his due share of profits. However, losses are shared
+in proportion to the contributed capital. It is not permissible to stipulate
+otherwise.
+Constant Musharaka
+It is a Musharaka in which the partners’ shares in the capital remain
+constant throughout the period as specified in the contract.
+Diminishing Musharaka
+It is a Musharaka in which the Islamic bank agrees to transfer gradually
+to the other partner its (the Islamic bank’s) share in the Musharaka, so that
+the Islamic bank’s share declines and the other partner’s share increases
+until the latter becomes the sole proprietor of the venture.
+Participation
+It is a Musharaka in which the Islamic bank owns shares or units representing
+an equity stake in another firm’s capital.
+Mudaraba
+It is a partnership in profit between capital and work. It is conducted
+between investment accountholders as owners of capital and the Islamic
+bank as a Mudarib. The Islamic bank announces its willingness to accept the
+funds of investment amount holders, the sharing of profits being as agreed
+upon between the two parties, and the losses being borne by the owner
+of funds except if they were due to misconduct, negligence or violation of
+the conditions agreed upon by the Islamic bank.

@@ -1,0 +1,144 @@
+AAOIFI Financial Accounting Standard 32
+Ijarah
+
+Objective of the standard
+1. The objective of this standard is to set out principles for the classification, recognition,
+measurement, presentation and disclosure for Ijarah (asset Ijarah, including different forms of Ijarah
+Muntahia Bittamleek) transactions entered into by the Islamic financial institutions (the institutions)
+on both ends of the transaction i.e. as a lessor and lessee. An institution shall consider the terms and
+conditions of the contracts and all relevant facts and circumstances when applying this standard and
+shall apply the same on a consistent basis.
+
+Scope
+2. This standard shall apply for accounting and financial reporting for a lessor or lessee, for all Ijarah
+(asset Ijarah, including Ijarah Muntahia Bittamleek (Ijarah MBT)) transactions unless specifically
+excluded under paragraph 3.
+3. This standard shall not be applied for accounting of:
+a. Sukuk based on Ijarah which shall be subject to accounting under respective FAS;
+b. Ijarah transactions for exploration, extraction, harvesting and otherwise use and sale of
+natural resources; and
+c. service Ijarah transactions including employment / labour contracts and hiring of
+professional services and other service based contracts (not involving tangible assets),
+including intellectual property and detachable rights.
+
+Definitions
+4. For the purpose of interpreting and applying this standard, the following short definitions are
+relevant:
+a. Combined asset – is an underlying asset subject to Ijarah MBT through gradual transfer, or
+any other form of Ijarah MBT, in which proportionate ownership and right-of-use co-exist on
+the same asset;
+b. Commencement date – is the date on which the lessor makes an underlying asset available
+for use by the lessee, in a condition suitable for intended purpose and use;
+f. Diminishing Musharaka (Shirkat-ul-Milk) Ijarah – is a hybrid Ijarah product similar to ‘Ijarah
+Muntahia Bittamleek through gradual transfer’ comprising of:
+i. a co-ownership in which two parties share the ownership of a tangible asset in an
+agreed proportion (without intention to engage in common business with respect to
+such asset); and
+ii. a promise under which one of the co-owners undertakes to buy in periodic
+installments the proportionate share of the other co-owner until the ownership /
+title to such tangible asset is completely transferred to the purchasing co-owner
+(whereby each transaction takes place as a sale); and
+iii. a separate Ijarah contract, whereby one co-owner (lessor) rents out its
+proportionate share in the asset to the other co-owner (lessee);
+l. Ijarah – is a contract, or part of contractual arrangement, that transfers the usufruct of an
+asset (the underlying asset) for a period of time in exchange for an agreed consideration,
+from a lessor (the owner of the underlying asset) to a lessee.
+n. Ijarah Muntahia Bittamleek (Ijarah MBT) – is a hybrid Ijarah arrangement which, in addition
+to the Ijarah contract, includes a promise resulting in transfer of the ownership of the
+underlying asset to the lessee, either after the end of the term of the Ijarah period or by
+stages during the term of the contract. Such transfer of the ownership is executed through a
+sale or a gift, or a series of sales transactions – independent of Ijarah contract;
+y. Right-of-use asset (usufruct asset) – is a kind of intangible assets that represents a lessee’s
+legally enforceable right-of-use (or control of usufruct) of an underlying asset (normally
+being a tangible asset) for the Ijarah term, and includes a ‘combined asset’ for the purpose
+of application of this standard;
+
+Identifying (and separating) an Ijarah
+5. At inception of a contract, an institution shall assess whether the contract is, or contains, an Ijarah. A
+contract is, or contains, an Ijarah if the contract transfers the usufruct (but not control) of an
+identified asset for a period of time in exchange for an agreed consideration.
+
+Classification of Ijarah
+12. An institution, in its capacity either as a lessor or lessee, shall classify each of its Ijarah as:
+a. an operating Ijarah (see paragraph 4(v));
+b. an Ijarah MBT (see paragraph 4(n)), including the following types:
+i. an Ijarah MBT – with expected transfer of ownership after the end of the Ijarah term
+– either through a sale or a gift; or
+ii. an Ijarah MBT with gradual transfer – with gradual transfer of ownership during the
+Ijarah term (including Diminishing Musharaka Ijarah).
+
+Accounting and financial reporting by the lessee
+Initial recognition
+21. At the commencement date, a lessee shall recognize:
+a. a right-of-use (usufruct) asset; and
+b. a net Ijarah liability, duly comprising of the following elements:
+i. gross Ijarah liability;
+ii. deferred Ijarah cost (shown as a contra-liability).
+Initial recognition of right-of-use asset
+22. At the commencement date, a lessee shall measure the right-of-use asset at cost.
+23. The cost of the right-of-use asset shall comprise:
+a. the “prime cost” of the right-of-use asset (determined in line with the paragraphs 31 or 32);
+b. any initial direct costs incurred by the lessee; and
+c. dismantling or decommissioning costs.
+Prime cost of the right-of-use asset
+31. At the commencement date, the prime cost of the right-of-use asset (except for an operating Ijarah)
+shall comprise of:
+a. either of:
+i. preferably, the cost of the underlying asset – if acquired specifically by the lessor for
+the purpose of the intended Ijarah transaction; or
+ii. alternatively, the fair value of the underlying asset as of the commencement date –
+if not acquired specifically by the lessor for the purpose of the intended Ijarah
+transaction or if the cost is not known to the lessee;
+b. less any expected terminal value of the underlying asset (at the end of the Ijarah term),
+being either of:
+i. the promised value (being nil value, in case of expected gift) at which the transfer
+may take place after the end of the Ijarah term; or
+ii. expected fair value of the underlying asset at the end of the Ijarah term, in case of
+absence of a promised value.
+
+Subsequent measurement of the right-of-use asset
+33. After the commencement date, a lessee shall measure the right-of-use asset at:
+a. cost;
+b. less – any accumulated amortization;
+c. less – any accumulated impairment losses;
+d. add / less – adjustment for any effect of Ijarah modification or reassessment specified in
+paragraphs 44-46.
+Amortization of right-of-use asset
+34. A lessee shall amortize the right-of-use asset from the commencement date to the end of the useful
+economic life of the right-of-use asset which coincides with the end of the Ijarah term.
+
+Accounting and financial reporting by the lessor
+Initial Recognition
+Timing of recognition of underlying asset
+61. Underlying asset shall be recognized in the books of the lessor once it controls the underlying asset
+i.e. the time when it essentially acquires substantially all risks and rewards incidental to ownership
+of such underlying asset.
+Recognition of underlying asset
+62. Underlying asset shall be initially recognized at cost.
+Subsequent measurement
+66. Subsequent to initial recognition, the underlying assets shall be measured at cost less accumulated
+depreciation less accumulated impairment, if any.
+Depreciation
+67. Depreciable amount of an underlying asset shall be charged to income over its useful economic life
+on a pattern which is reflective of the expected pattern of economic benefits arising from the same.
+Ijarah revenue and costs
+Ijarah revenue
+74. Ijarah revenue shall be recognized in income statement of the lessor on an accrual basis, applying,
+either:
+a. a straight-line basis – preferred method; or
+b. another systematic basis.
+
+Ijarah MBT: transfer of underlying asset’s ownership
+Timing of recognition of the transfer of underlying asset
+86. In case of an Ijarah MBT, the transfer of asset’s ownership may take place through transfer of
+control (entailing risks and rewards incidental to ownership of such asset) under a separate (i.e.
+separate from the Ijarah contract):
+a. contract of sale – after the end of the Ijarah term (including, in certain circumstances, after
+early termination of the Ijarah term); or
+b. contract of gift – after the end of the Ijarah term; or
+c. contracts of sale of proportionate ownership (generally in form of ownership units) – during
+the Ijarah term.
+
+Effective date
+110. This standard shall be effective for the financial periods beginning on or after 01 January 2021. Early
+adoption is permitted.

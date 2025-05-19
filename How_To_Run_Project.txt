@@ -1,0 +1,29 @@
+To Run the project:
+
+Backend: 
+pip install requirements.txt
+python app.py
+
+Frontend:
+
+>> If using npm
+npm install
+npm start 
+
+>> If using Yarn
+yarn install
+yarn start
+
+
+1. Identifying the Need
+Enhancement starts with identifying gaps in existing standards or emerging practices not covered, triggered by:
+
+New financial instruments (e.g., ESG-linked Sukuk)
+
+Industry feedback from Islamic banks, scholars, or auditors
+
+Global developments (e.g., IFRS updates, Basel reforms)
+
+Changes in Shari’ah rulings
+
+Regulatory concerns or inconsistencies in implementation

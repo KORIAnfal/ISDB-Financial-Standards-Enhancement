@@ -1,0 +1,56 @@
+Preamble: This standard provides amendments and clarifications to AAOIFI FAS 4 concerning Murabaha and Murabaha to the Purchase Orderer (MPO). It addresses specific issues to ensure greater consistency in application and enhanced Shari'ah compliance, particularly focusing on the nature of the promise in MPO, the treatment of security deposits (Hamish Jiddiyah), and other related matters.
+Section 1: Scope of Amendments
+1.1. These amendments apply to aspects of Murabaha and Murabaha to the Purchase Orderer (MPO) transactions that require further clarification or updated guidance from the original FAS 4.
+1.2. Unless specifically amended by this standard, the provisions of FAS 4 remain applicable. This standard should be read in conjunction with FAS 4.
+Section 2: Binding Nature of the Promise (Wa'd) in Murabaha to the Purchase Orderer (MPO)
+2.1. Clarification on Binding Promise: In an MPO, the promise (Wa'd) from the purchase orderer to buy the asset from the Islamic Financial Institution (IFI) after the IFI acquires it, can be either:
+a) Binding on the Purchase Orderer (Customer): If stipulated as such in the agreement and the IFI has incurred actual costs or entered into commitments in reliance on this promise (e.g., purchased a specific, non-standard asset for the customer).
+b) Binding on Both Parties (IFI and Customer): Some Shari’ah views permit a two-sided binding promise in MPO if specific conditions are met, primarily if the promise does not constitute an immediate sale contract but a commitment to enter into a future Murabaha sale.
+c) Non-Binding: If not explicitly stated as binding, or if Shari'ah supervisory board (SSB) policy dictates so.
+2.2. Consequences of Breach of a Binding Promise by the Purchase Orderer:
+a) If the purchase orderer breaches a binding promise (where only the customer is bound) to purchase the asset acquired by the IFI based on their order, the IFI is entitled to seek compensation for actual damages incurred due to the breach.
+b) Actual damages are limited to the direct financial loss suffered by the IFI, such as:
+i. The difference between the cost incurred by the IFI to acquire the asset and the price at which the IFI eventually sells the asset to a third party (if lower).
+ii. Other direct, demonstrable costs incurred by the IFI as a result of the breach (e.g., storage costs for a reasonable period while seeking an alternative buyer for a specific asset).
+c) Compensation for actual damages cannot include lost profit or opportunity cost that the IFI might have earned had the Murabaha sale been completed. This is to avoid resemblance to interest (Riba).
+2.3. IFI's Obligation in Case of a Two-Sided Binding Promise: If the promise is binding on both parties, and the IFI breaches its promise to sell after acquiring the asset (and the customer is ready to buy), the customer may also be entitled to compensation for their actual, direct damages, if any are incurred and proven.
+Section 3: Security Deposit (Hamish Jiddiyah) in MPO – Enhanced Guidance
+3.1. Purpose of Hamish Jiddiyah: A security deposit (Hamish Jiddiyah) may be taken by the IFI from the purchase orderer in an MPO to ensure the seriousness (Jiddiyah) of the customer's promise to purchase the asset.
+3.2. Accounting for Hamish Jiddiyah:
+a) Hamish Jiddiyah received by the IFI is to be treated as a liability on the IFI’s statement of financial position (e.g., "Customer Security Deposits" or "Amounts Held in Trust"). It represents funds held on behalf of the customer.
+b) It is not to be recognized as income by the IFI upon receipt.
+3.3. Application of Hamish Jiddiyah in Case of Breach of a Binding Promise:
+a) If the purchase orderer fulfills their binding promise and completes the Murabaha purchase, the Hamish Jiddiyah is typically:
+i. Returned to the customer, OR
+ii. Applied, with the customer's consent, as part of the purchase price of the Murabaha asset.
+b) If the purchase orderer breaches a binding promise, the IFI may utilize the Hamish Jiddiyah to cover the actual damages incurred by the IFI due to the breach, as defined in Section 2.2.b.
+c) Any portion of the Hamish Jiddiyah remaining after covering actual damages must be returned to the purchase orderer. The IFI cannot retain any excess amount beyond its actual loss.
+d) The Hamish Jiddiyah cannot be forfeited entirely simply due to a breach if the actual loss is less than the deposit amount, nor can it be used to compensate for lost potential profit.
+3.4. Return of Hamish Jiddiyah in Case of Non-Binding Promise or IFI Default:
+a) If the promise to purchase was non-binding, and the customer decides not to proceed with the Murabaha purchase, the full Hamish Jiddiyah must be returned to the customer, irrespective of any costs the IFI might have incurred.
+b) If the IFI is unable to acquire the specified asset or decides not to proceed with the Murabaha transaction (when the IFI is not bound or breaches its binding promise), the full Hamish Jiddiyah must be returned to the customer.
+3.5. Investment of Hamish Jiddiyah (if applicable): If Shari’ah rulings permit the IFI to invest the Hamish Jiddiyah (e.g., in a common investment pool with customer consent), the profits or losses from such investment must be attributed according to the agreement (often to the customer or shared, after deducting relevant fees if agreed). This specific accounting would follow investment account rules. If held merely as a security deposit without such an arrangement, no investment return for the IFI typically arises from the deposit itself.
+Section 4: Options (Khiyar) in Murabaha Contracts
+4.1. Khiyar al-Shart (Stipulated Option):
+a) The Murabaha contract may include a stipulated option for one or both parties to rescind the contract within a specified period.
+b) If an option to rescind is exercised by the entitled party within the option period, the Murabaha sale is nullified. The asset is returned to the IFI (if already delivered to customer), and any payment made by the customer is refunded. The accounting entries for the sale (receivable, profit) would be reversed.
+c) If the option period expires without the option being exercised, the Murabaha sale becomes final and binding.
+4.2. Khiyar al-Ayb (Option of Defect):
+a) The purchase orderer (customer) retains the right to Khiyar al-Ayb (option due to defect) if a defect is discovered in the Murabaha asset after purchase, which was not disclosed by the IFI and which diminishes its value or utility.
+b) If a defect is established, the customer may, as per Shari'ah:
+i. Return the asset and recover the price paid (or cancel the receivable).
+ii. Retain the asset and claim compensation for the diminution in value due to the defect.
+iii. Retain the asset as is, if the defect is minor and they agree.
+c) The IFI should account for such returns, allowances, or claims as a reduction in revenue, an adjustment to receivables, or an expense, as appropriate, reflecting the financial impact of the exercised option.
+4.3. Khiyar al-Ru’yah (Option of Inspection - if applicable to Murabaha context): If the asset was purchased by the customer based on description without prior inspection, an option of inspection might exist. If upon inspection the asset does not conform to the description, the customer may have the right to rescind the Murabaha sale. Accounting treatment would follow Section 4.1.b upon rescission.
+Section 5: Treatment of Certain Costs in Murabaha to the Purchase Orderer
+5.1. Indirect Costs and Overheads: Clarification that only directly attributable costs incurred by the IFI in acquiring the asset for the MPO can be included in the "cost" upon which the Murabaha profit is calculated. General administrative overheads, internal financing costs of the IFI, or MPO origination costs (not directly tied to acquiring the specific asset) are generally not to be included in the Murabaha cost base presented to the customer, unless specifically agreed as a separate service fee transparently.
+5.2. Rebates/Discounts from Supplier after IFI Acquisition: If the IFI receives a rebate or discount from the original supplier after it has already agreed on the Murabaha cost with the purchase orderer (but before concluding the Murabaha sale), Shari’ah principles require transparency.
+a) If the Murabaha contract with the purchase orderer has not yet been finalized (i.e., asset still in IFI's possession, and only a promise exists), such a rebate should ideally reduce the cost disclosed to the purchase orderer, thereby reducing the total Murabaha price.
+b) If the Murabaha sale contract has already been executed based on the initial cost, treatment of such post-acquisition rebates received by the IFI should be in accordance with the IFI’s SSB ruling, often requiring it to be passed to the customer or treated as permissible income for the IFI only under specific conditions.
+Section 6: Disclosures (Amendments/Additions to FAS 4 Disclosures)
+6.1. The policy regarding the binding nature of promises in MPO transactions (one-sided or two-sided).
+6.2. The accounting policy for Hamish Jiddiyah, including its treatment in case of fulfillment or breach of promise.
+6.3. The aggregate amount of Hamish Jiddiyah held as a liability at the reporting date.
+6.4. Information about amounts (if any) utilized from Hamish Jiddiyah to cover actual damages, and the nature of these damages.
+6.5. Policies related to various options (Khiyar) if significant or frequently encountered, and their financial impact if material.

@@ -1,0 +1,6 @@
+os
+dotenv
+langchain_openai
+langchain
+flask
+flask_cors

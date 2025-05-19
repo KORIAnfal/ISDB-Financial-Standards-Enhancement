@@ -1,0 +1,430 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f4f7f6; /* Very light grey/off-white */
+  color: #333;
+  margin: 0;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+.App {
+  max-width: 900px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #ffffff; /* White background for the app container */
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #006400; /* Dark Green */
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* --- Container for input and buttons --- */
+.standard-selector-container {
+    display: flex;
+    flex-direction: column; /* Always column layout on small screens */
+    gap: 15px;
+    margin-bottom: 25px;
+    padding: 15px; /* Add padding */
+    border: 1px solid #a5d6a7; /* Add border */
+    border-radius: 5px;
+    background-color: #e8f5e9; /* Light green background */
+    align-items: stretch; /* Stretch children */
+}
+
+/* Removed styles for .standard-selector select */
+/* Removed styles for .standard-selector label */
+/* Removed styles for .standard-selector */
+
+
+/* Styles for the news input container */
+.news-query-input {
+  display: flex;
+  flex-direction: column; /* Stack label and input vertically */
+  align-items: stretch; /* Stretch input to fill width */
+  gap: 5px; /* Space between label and input */
+  flex-grow: 1; /* Allows the input area to take available space */
+}
+
+.news-query-input label {
+    font-weight: bold;
+    color: #2e7d32; /* Match other label styles */
+    margin-bottom: 0; /* Remove bottom margin if gap handles spacing */
+}
+
+.news-query-input textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #a5d6a7; /* Match other input styles */
+    flex-grow: 1;
+    font-size: 1rem;
+    resize: vertical; /* Allow vertical resizing only */
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif; /* Match body font */
+    background-color: white; /* Ensure background is white */
+}
+
+/* --- Style for button container --- */
+.action-buttons {
+    display: flex;
+    flex-direction: column; /* Always stack buttons on small screens */
+    gap: 10px; /* Space between buttons */
+    width: 100%; /* Ensure buttons take full width container space */
+    align-items: center; /* Center buttons if less than full width */
+}
+
+.action-buttons button {
+  padding: 10px 20px;
+  background-color: #2e7d32; /* Green button */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+  width: 100%; /* Ensure button takes full width */
+}
+
+.action-buttons button:disabled {
+  background-color: #9e9e9e;
+  cursor: not-allowed;
+}
+
+.action-buttons button:hover:not(:disabled) {
+  background-color: #1b5e20; /* Darker green on hover */
+}
+
+
+/* Media query for larger screens - simplified */
+@media (min-width: 768px) {
+  .standard-selector-container {
+    flex-direction: column; /* Keep column layout */
+    align-items: stretch; /* Stretch children */
+    gap: 15px;
+  }
+
+   /* Removed media query styles for .standard-selector select, label */
+
+   .news-query-input {
+     flex-direction: row; /* Label and input side-by-side */
+     align-items: center;
+     gap: 10px;
+     flex-grow: 1;
+     width: auto;
+   }
+
+   .news-query-input label {
+        margin-bottom: 0;
+   }
+
+  .news-query-input textarea {
+     flex-grow: 1;
+     min-width: 150px;
+     height: auto !important;
+     rows: auto !important;
+  }
+
+  /* Make action buttons row on larger screens */
+  .action-buttons {
+      flex-direction: row;
+      gap: 15px;
+      width: auto;
+      align-self: flex-end; /* Align buttons to the right */
+      /* Adjust alignment or width if you want the button to take full width still */
+  }
+   .action-buttons button {
+       width: auto; /* Allow button to take natural width */
+   }
+}
+
+
+.loading-message, .error-message, .completion-message {
+  text-align: center;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.loading-message {
+  color: #006400;
+  background-color: #e8f5e9; /* Very light green */
+}
+
+.error-message {
+  color: #c62828; /* Red for errors */
+  background-color: #ffebee; /* Light red */
+}
+
+.completion-message {
+    background-color: #d4edda; /* Lighter green */
+    color: #155724; /* Darker green */
+}
+
+/* General container for agent outputs (reused) */
+.agent-output-container {
+  margin-top: 30px;
+  padding: 15px;
+  border: 1px solid #a5d6a7; /* Light green border */
+  border-radius: 5px;
+  background-color: #f9f9f9; /* Slightly off-white for output sections */
+}
+
+/* Style for the overall container holding multiple standard results */
+.standards-analysis-results {
+     margin-top: 30px;
+}
+.standards-analysis-results h2 {
+    color: #004d40; /* Teal */
+    border-bottom: 2px solid #80cbc4; /* Light teal */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style for individual standard results blocks */
+.agent-output-container.standard-results-block {
+    margin-top: 20px; /* Reduce space between individual standard blocks */
+    border-color: #80cbc4; /* Light teal */
+    background-color: #e0f2f7; /* Very light blue/teal */
+    padding-bottom: 20px; /* Add padding at the bottom */
+}
+
+/* Style for the heading within an individual standard results block */
+.agent-output-container.standard-results-block h3 {
+    margin-top: 0;
+    color: #006064; /* Cyan */
+    font-size: 1.2em;
+    border-bottom: 1px solid #b2ebf2; /* Light cyan */
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+.agent-output-container.standard-results-block h4 {
+    color: #333; /* Darker color for subheadings */
+    margin-top: 20px; /* Space above subheadings */
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 5px;
+}
+
+.standard-relevance-score {
+    font-size: 0.8em;
+    color: #555;
+    font-weight: normal;
+    margin-left: 10px;
+}
+
+
+/* Style for the combined proposals/validation container (reused for manual mode) */
+/* This specific blue container will no longer be used with the manual mode removed,
+   but keeping the style doesn't harm anything. */
+.agent-output-container.final-proposals-container {
+    border-color: #42a5f5; /* Blue border */
+    background-color: #e3f2fd; /* Light blue background */
+}
+
+/* This style applies to titles in AgentOutput and was also used for the main proposals container in manual mode */
+.agent-output-container h2 {
+  color: #1b5e20; /* Darker green for section titles */
+  margin-top: 0;
+  border-bottom: 2px solid #a5d6a7;
+  padding-bottom: 10px;
+  margin-bottom: 15px;
+}
+
+/* Style for the heading within the combined proposals container (in manual mode) */
+/* This style will no longer be used */
+.final-proposals-container h2 {
+    color: #1565c0; /* Darker blue */
+    border-bottom-color: #42a5f5; /* Match border color */
+}
+
+
+/* Styles for react-markdown content (reused) */
+.markdown-content {
+  font-size: 0.95rem;
+}
+.markdown-content h1,
+.markdown-content h2,
+.markdown-content h3 {
+  margin-top: 1.2em;
+  margin-bottom: 0.6em;
+  color: #2e7d32;
+}
+.markdown-content pre {
+  background-color: #e8f5e9;
+  padding: 10px;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+.markdown-content code {
+  font-family: 'Courier New', Courier, monospace;
+}
+.markdown-content blockquote {
+  border-left: 3px solid #a5d6a7;
+  padding-left: 10px;
+  color: #555;
+  margin-left: 0;
+}
+.markdown-content p {
+    margin-bottom: 1em;
+}
+.markdown-content ul, .markdown-content ol {
+    margin-bottom: 1em;
+}
+
+/* --- Proposal Card Styles (reused) --- */
+.proposals-list {
+    display: grid;
+    gap: 20px;
+}
+
+.proposal-card {
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.08);
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+}
+
+.proposal-card.approved {
+    border-color: #4CAF50;
+    background-color: #e8f5e9;
+}
+
+.proposal-card.rejected {
+    border-color: #f44336;
+    background-color: #ffebee;
+}
+
+.proposal-card.undetermined {
+    border-color: #ff9800;
+    background-color: #fff3e0;
+}
+
+
+.proposal-card h3 {
+    margin-top: 0;
+    color: #1565c0;
+    font-size: 1.1em;
+    border-bottom: 1px dotted #ccc;
+    padding-bottom: 8px;
+    margin-bottom: 8px;
+}
+
+.proposal-card p {
+    margin-bottom: 10px;
+    font-size: 0.95em;
+}
+
+.proposal-card .verdict {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.proposal-card .verdict.approved { color: #2e7d32; }
+.proposal-card .verdict.rejected { color: #c62828; }
+.proposal-card .verdict.undetermined { color: #f57c00; }
+
+.proposal-card .score-count {
+    font-size: 0.85em;
+    color: #555;
+    margin-left: 5px;
+}
+
+.proposal-card .verdict-justification {
+    font-size: 0.9em;
+    color: #555;
+    font-style: italic;
+}
+
+.proposal-card .source-themes {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Individual Validations styles (reused) */
+.individual-validations {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+}
+
+.individual-validations h4 {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: #444;
+    font-size: 1em;
+}
+
+.individual-validations ul {
+    list-style: disc;
+    padding-left: 20px;
+    margin-bottom: 0;
+}
+
+.individual-validations li {
+    margin-bottom: 5px;
+    font-size: 0.9em;
+    color: #444;
+}
+
+/* Style for the proposer details markdown section (reused) */
+.proposer-details-markdown {
+    margin-top: 15px;
+    padding-top: 10px;
+    border-top: 1px dashed #ccc;
+}
+
+.proposer-details-markdown h4 {
+     margin-top: 0;
+     margin-bottom: 8px;
+     color: #444;
+     font-size: 1em;
+}
+
+.proposer-details-markdown .markdown-content {
+    font-size: 0.9em;
+}
+.proposer-details-markdown .markdown-content h1,
+.proposer-details-markdown .markdown-content h2,
+.proposer-details-markdown .markdown-content h3,
+.proposer-details-markdown .markdown-content h4 {
+     color: #555;
+}
+
+/* Adjust spacing between different output containers */
+.agent-output-container + .agent-output-container {
+    margin-top: 25px;
+}
+
+/* Ensure spacing after the input container */
+.standard-selector-container {
+    margin-bottom: 25px;
+}
+
+/* Spacing for the container holding multiple standard results blocks */
+.standards-analysis-results .agent-output-container.standard-results-block {
+     margin-top: 20px; /* Space between standard blocks */
+}
+.standards-analysis-results .agent-output-container.standard-results-block:first-of-type {
+     margin-top: 0; /* No extra space before the first block */
+}
+
+
+/* Style for the message about standards identified by classifier */
+.standards-analysis-results + .agent-output-container {
+    margin-top: 25px; /* Space after the list of standard blocks */
+}
+
+/* Style for the list of standards identified by the classifier */
+.agent-output-container ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+.agent-output-container ul li {
+    margin-bottom: 5px;
+}
